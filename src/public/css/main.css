@@ -1,0 +1,36 @@
+#nave{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.itemnaveactive{
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 2px; 
+}
+#imginicio{
+    background-image: url('../img/imginicio.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+.datos{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+   
+}
+.imgdatos{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+.txtdatos{
+    margin-top: 50px;
+    text-align: center;
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
