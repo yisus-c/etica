@@ -34,3 +34,37 @@
 body{
     background-color: rgb(221, 221, 221);
 }
+a:hover {
+    outline: none;
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+a:active{
+    outline: none;
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:link{
+    outline: none;
+}
+.secciones{
+    margin-top: 20px;
+    background-color: rgb(88, 88, 88);
+    width: 100%;
+    color: white;
+    border-bottom:solid 1px rgb(0, 0, 0);
+    padding-left: 10px;
+}
+.col-card{
+    width: 90%;
+    margin-top: 10px;
+}
+.carda{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
