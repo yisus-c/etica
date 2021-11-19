@@ -21,113 +21,191 @@
         <!--CSS-->
         <link rel="stylesheet" href="./public/css/main.css">
 </head>
-<body>
+<body > 
     <!--Navegacion-->
     <div class="container-fluid">
-        <div class="row" id="nave">
-            <div class="col-3" >
-                <div class="itemnaveactive">
-                    <h2>Inicio</h2>
-                </div>                
-            </div>
-            <div class="col-3">
-               <a href="paginas/docs.html"><h2>Documentos</h2></a> 
-            </div>
-            <div class="col-3">
-                <h2>Noticias</h2>
-            </div>
-            <div class="col-3">
-                <h2>Tramites</h2>
-            </div>
-        </div>
-    </div>    
-    <p><br></p>
-        <!--Fin Navegacion-->
-    <!--Datos-->
-        <div id="imginicio">
-            <div class="container">
-                <div class="row">
-                    <p><br></p>
-                </div>
-                <div class="row datos">
-                    <div class="col-3">
-                        <img src="public/img/logos-fif-uaq2.png" alt="logoUAQ" class="imgdatos">
-                     </div>
-                     <div class="col-6 txtdatos">
-                        <p><h1>PROYECTO FINAL</h1></p> 
-                        
-                        <p><br><h3>Informática Juridica</h3></p>
-                        <p style="font-size: x-large;"> Alumno: Jesús Guevara Ramírez</p>
-                     </div>
-                     <div class="col-3"> 
-                         <img src="public/img/logos-fif-uaq.png" alt="logoFIF" class="imgdatos">
-                     </div>
-                </div>  
-                <div class="row">
-                    <p><br></p>
-                </div>  
-            </div>
-            
-        </div>
-    <!--Fin datos-->
-<div class="container">
-    <div class="row">
-        <div class="secciones">
-            <h3>Noticias recientes</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-4 ">
-            <div class="card col-card">
-                <img class="card-img-top" src="public/img/noticia1.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Ley de Derechos de Autor en internet</h5>
-                    <p class="card-text">En México se realizó una reforma a la Ley Federal de Derechos de Autor, 
-                        (LFDA), para ser más precisos en el tema del internet..
-                        <small class="text-muted">21/09/2021</small>
-                    </p>
-                    <a href="#" class="card-link carda">Leer más...</a>
-                </div>
-               
-            </div>
-        </div>
-        <div class="col-xs-12 col-md-4 ">
-            <div class="card col-card">
-                <img class="card-img-top" src="public/img/noticia1.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Ley de Derechos de Autor en internet</h5>
-                    <p class="card-text">En México se realizó una reforma a la Ley Federal de Derechos de Autor, 
-                        (LFDA), para ser más precisos en el tema del internet..
-                        <small class="text-muted">21/09/2021</small>
-                    </p>
-                    <a href="#" class="card-link carda">Leer más...</a>
-                </div>
-               
-            </div>
-        </div>
-        <div class="col-xs-12 col-md-4 ">
-            <div class="card col-card">
-                <img class="card-img-top" src="public/img/noticia1.png" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Ley de Derechos de Autor en internet</h5>
-                    <p class="card-text">En México se realizó una reforma a la Ley Federal de Derechos de Autor, 
-                        (LFDA), para ser más precisos en el tema del internet..
-                        <small class="text-muted">21/09/2021</small>
-                    </p>
-                    <a href="#" class="card-link carda">Leer más...</a>
-                </div>
-               
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="secciones">
-            <h3>
-                Documentos relevantes
-            </h3>
-        </div>
-    </div>
-</div>  
+        <div class="row">
+            <ul class="nav nav-fill fixed-top nav-justified" id="nave">
+                <li class="nav-item itemnaveactive ">
+                  <h4 class="nav-link active ">Inicio</h4>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="paginas/news.html"><h4>Noticias</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="paginas/docs.html"><h4>Documentos</h4></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="paginas/tramites.html"><h4>Tramites</h4></a>
+                </li>
+              </ul>
 
+        </div>
+    </div> 
+    <!--Fin Navegacion-->
+<div class="contenido" >
+        
+            <!--Datos-->
+            <div id="imginicio">
+                <p><br></p>
+                <div class="container">
+                    <div class="row">
+                        <p><br></p>
+                    </div>
+                    <div class="row datos">
+                        <div class="col-3">
+                            <img src="public/img/logos-fif-uaq2.png" alt="logoUAQ" class="imgdatos">
+                         </div>
+                         <div class="col-6 txtdatos">
+                            <p><h1>PROYECTO FINAL</h1></p> 
+                            
+                            <p><br><h3>Informática Juridica</h3></p>
+                            <p style="font-size: x-large;"> Alumno: Jesús Guevara Ramírez</p>
+                         </div>
+                         <div class="col-3"> 
+                             <img src="public/img/logos-fif-uaq.png" alt="logoFIF" class="imgdatos">
+                         </div>
+                    </div>  
+                    <div class="row">
+                        <p><br></p>
+                    </div>  
+                </div>
+                
+            </div>
+        <!--Fin datos-->
+    <div class="container">
+        <!--Noticias-->
+        <div class="row">
+            <div class="secciones">
+                <h3>Noticias recientes</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4 ">
+                <div class="card col-card">
+                    <img class="card-img-top" src="public/img/noticia1.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Ley de Derechos de Autor en internet</h5>
+                        <p class="card-text">En México se realizó una reforma a la Ley Federal de Derechos de Autor, 
+                            (LFDA), para ser más precisos en el tema del internet..
+                            <small class="text-muted">21/09/2021</small>
+                        </p>
+                        <a href="https://contactaabogado.com/noticias-juridicas/derecho-informatico/ley-de-derechos-de-autor-en-internet-6f5d/" class="card-link carda" target="new">Leer completa...</a>
+                        <a href="public/documents/Actividad8-Resumen.pdf" class="card-link carda" target="new">Leer ensayo...</a>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 ">
+                <div class="card col-card">
+                    <img class="card-img-top" src="public/img/noticia2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">La tecnología y la inteligencia artificial en los despachos del futuro</h5>
+                        <p class="card-text"> Algunos empleadores creen que es mejor regresar a la oficina de manera tradicional, 
+                            mientras otros...
+                            <small class="text-muted">02/09/2021</small>
+                        </p>
+                        <a href="https://contactaabogado.com/noticias-juridicas/derecho-en-telecomunicaciones/la-tecnologi-a-y-la-inteligencia-artificial-en-los-despachos-del-futuro-e167/" class="card-link carda" target="new">Leer completa...</a>
+                        <a href="public/documents/Noticia9.pdf" class="card-link carda" target="new">Leer ensayo...</a>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 ">
+                <div class="card col-card">
+                    <img class="card-img-top" src="public/img/noticia3.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Marketing digital para abogados</h5>
+                        <p class="card-text">Las herramientas que el Marketing digital ofrece ahora son muchas y se pueden aplicar 
+                            casi para cualquier...
+                            <small class="text-muted">26/08/2021</small>
+                        </p>
+                        <a href="https://contactaabogado.com/noticias-juridicas/derecho-civil/marketing-digital-para-abogados-c456/" class="card-link carda" target="new">Leer completa...</a>
+                        <a href="public/documents/noticia6.pdf" class="card-link carda" target="new">Leer ensayo...</a>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 completo">
+                <a href="paginas/news.html"> <button type="button" class="btn btn-outline-secondary">Ver todas ></button> </a>
+                
+            </div>
+        </div>
+        <!--Fin noticias-->
+        <!--Docs-->
+        <div class="row">
+            <div class="secciones">
+                <h3>
+                    Documentos relevantes
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-4 ">
+                <div class="card col-card">
+                    <img class="card-img-top" src="public/img/unidad8.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Unidad 8 - Delitos informaticos</h5>
+                        <p class="card-text">En la actualidad, las redes
+                            de comunicación electrónica y los sistemas de información forman parte de
+                            la vida diaria de...
+                        </p>
+                        <a href="public/documents/Unidad8-DelitosInformaticos.pdf" class="card-link carda" target="new">Ver documento...</a>
+                        <a href="public/documents/Actividad11-Resumen.pdf" class="card-link carda" target="new">Ver Resumen...</a>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 ">
+                <div class="card col-card">
+                    <img class="card-img-top" src="public/img/unidad5.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Unidad 5 - Regulación jurídica del flujo internacional
+                            de datos y de internet</h5>
+                        <p class="card-text">El flujo de datos
+                            transfronterizos (FDT) es
+                            "la circulación de datos e
+                            información ...
+                        </p>
+                        <a href="public/documents/Unidad5.pdf" class="card-link carda" target="new">Ver documento...</a>
+                        <a href="public/documents/Actividad7-Resumen.pdf" class="card-link carda" target="new">Ver Resumen...</a>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 ">
+                <div class="card col-card">
+                    <img class="card-img-top" src="public/img/unidad2.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Unidad 2 - Informática Jurídica</h5>
+                        <p class="card-text">Aun cuando es el más importante y desarrollado dentro
+                            de la informática jurídica, el aspecto documentario
+                            no es definitivamente el único...
+                        </p>
+                        <a href="public/documents/Unidad2-InformaticaJuridica.pdf" class="card-link carda" target="new">Ver documento...</a>
+                        <a href="public/documents/Actividad4_JesusGuevaraRamirez.pdf" class="card-link carda" target="new">Ver Resumen...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row completo">
+            <div class="col-12 ">
+                <a href="paginas/docs.html"> <button type="button" class="btn btn-outline-secondary">Ver todos ></button> </a>
+                
+            </div>
+        </div>
+        <!--Fin docs-->
+    </div>  
+    
+</div>
+<div id="pie">
+    <footer>
+        <p>Etica y Legislación Informática | Facultad de Informática | UAQ 
+            <br> ©2021
+        </p>
+    </footer>
+</div>
 </body>
 </html>

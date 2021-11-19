@@ -1,16 +1,20 @@
 #nave{
-    background-color: rgb(56, 56, 56);
+    background:  rgb(56, 56, 56);
     color: white;
-    position: fixed;
     width: 100%;
-    text-align: center;
-    margin-bottom: 2px;
 }
+
 .itemnaveactive{
     border-bottom-style: solid;
     border-bottom-color: rgb(255, 255, 255);
     border-bottom-width: 2px; 
+    color:rgb(255, 255, 255);
 }
+.itemnave{
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+}
+
 #imginicio{
     background-image: url('../img/imginicio.jpg');
     background-repeat:no-repeat;
@@ -26,10 +30,11 @@
     width: 100px;
     margin-top: 50px;
     margin-left: 30%;
+    
 }
 .txtdatos{
     margin-top: 50px;
-    text-align: center;
+     text-align: center;
 }
 body{
     background-color: rgb(221, 221, 221);
@@ -67,4 +72,19 @@ a:link{
 .carda{
     color:rgb(0, 0, 0);
     font-weight: bold;
+}
+.card-img-top{
+    height: 200px;
+}
+.completo{
+    margin-top: 10px;
+    text-align: center;
+}
+#pie{
+    width: 100%;
+    background-color: #262626;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    margin-top: 30px;
+    float: left;
 }
