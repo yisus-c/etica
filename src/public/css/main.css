@@ -80,11 +80,19 @@ a:link{
     margin-top: 10px;
     text-align: center;
 }
-#pie{
+.pie{
     width: 100%;
     background-color: #262626;
     color: rgb(59, 59, 59);
     text-align: center;
     margin-top: 30px;
     float: left;
+}
+.cardnin{
+    width: 100%;
+    margin-top: 20px;
+}
+.fstcard{
+    width: 100%;
+    margin-top: 70px;
 }
